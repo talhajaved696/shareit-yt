@@ -4,7 +4,7 @@
   "description": "File Sharing app.",
   "main": "app.js",
   "scripts": {
-    "start": "node app",
+    "serve": "node app",
     "dev": "nodemon app"
   },
   "author": "Talha Javed",
