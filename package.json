@@ -4,7 +4,7 @@
   "description": "File Sharing app.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "serve -s app.js",
     "dev": "nodemon app.js"
   },
   "author": "Talha Javed",
@@ -17,6 +17,7 @@
     "mongoose": "^5.10.2",
     "multer": "^1.4.2",
     "nodemailer": "^6.4.11",
+    "serve": "^11.3.2",
     "uuid": "^8.3.0"
   },
   "devDependencies": {
