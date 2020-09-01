@@ -4,14 +4,20 @@
   "description": "File Sharing app.",
   "main": "app.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node server",
-    "dev": "cross-env NODE_ENV=development nodemon server"
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
   },
   "author": "Talha Javed",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.11",
+    "uuid": "^8.3.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
