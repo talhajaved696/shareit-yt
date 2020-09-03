@@ -21,6 +21,10 @@ let upload = multer({
   },
 }).single('myfile'); //100mb
 
+router.get('/', (req, res) => {
+  res.render('download.ejs')
+})
+
 router.post('/', (req, res) => {
   upload(req, res, async (err) => {
     if (err) {
